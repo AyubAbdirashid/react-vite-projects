@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+}
+.mode{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .3s ease-in;
+    height: 100vh;
+
+
+    
+}
+
+@media screen and (max-width: 600px) {
+    .mode {
+      flex-direction: column; /* Stack boxes vertically on smaller screens */
+    }
+  }
